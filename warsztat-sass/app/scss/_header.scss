@@ -1,0 +1,39 @@
+header {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    padding: 30px 40px;
+
+}
+
+header h1,
+p,
+i {
+    color: white;
+
+}
+
+form {
+
+    display: inline;
+}
+
+header .fa-university {
+    color: $yellow-color;
+    font-size: 35px;
+    float: left;
+}
+
+header .fa-phone {
+    font-size: 25px;
+    float: left;
+    transform: rotate(90deg);
+}
+
+header span {}
+
+.header-contact #call {
+    font-size: 10px;
+}
